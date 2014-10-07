@@ -15,7 +15,7 @@
 					'itemCssClass'=>'item-test',
                     'encodeLabel'=>false,
                     'items'=>array(
-						array('label'=>'Home <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"our home page"), 
+						array('label'=>Yii::t('texto','Inicio').' <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>Yii::t('texto','nuestra página de inicio')), 
                         'items'=>array(
                             array('label'=>'Home 1 - Nivoslider', 'url'=>array('/site/index')),
 							array('label'=>'Home 2 - Bootstrap carousal', 'url'=>array('/site/page', 'view'=>'home2')),
@@ -41,7 +41,7 @@
 							array('label'=>'UI Elements', 'url'=>array('/site/page', 'view'=>'elements')),
                         )),
 
-                        array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>"what we are about"),),
+                        array('label'=>Yii::t('texto','Acerca'), 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>Yii::t('texto','lo que somos')),),
                         array('label'=>'Portfolio <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"some of our work"), 
                         'items'=>array(
                             array('label'=>'4 columns', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols')),
