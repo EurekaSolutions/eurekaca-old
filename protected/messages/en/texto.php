@@ -5,5 +5,6 @@ return array('Inicio'=>'Home',
 			'lo que somos'=>'what we are about',
 			'Acerca de nosotros'=>'About us',
 			'todo lo que necesitas saber'=>'everything you need to know',
+			'TELEFONO GRATUITO'=>'TOLL FREE',
 	);
 ?>
