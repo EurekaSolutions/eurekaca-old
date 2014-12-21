@@ -42,7 +42,7 @@
                         )),
 
                         array('label'=>Yii::t('texto','Acerca'), 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>Yii::t('texto','lo que somos')),),
-                        array('label'=>'Portfolio <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"some of our work"), 
+                        array('label'=>Yii::t('texto','Portafolio').' <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"some of our work"), 
                         'items'=>array(
                             array('label'=>'4 columns', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols')),
 							array('label'=>'3 columns', 'url'=>array('/site/page', 'view'=>'portfolio-3-cols')),
