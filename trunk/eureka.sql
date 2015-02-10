@@ -49,6 +49,69 @@ CREATE TABLE migration (
 ALTER TABLE public.migration OWNER TO eureka;
 
 --
+-- Name: subscripciones; Type: TABLE; Schema: public; Owner: eureka; Tablespace: 
+--
+
+CREATE TABLE subscripciones (
+    id integer NOT NULL,
+    correo character varying(255) NOT NULL,
+    nombre character varying(255),
+    apellido character varying(255)
+);
+
+
+ALTER TABLE public.subscripciones OWNER TO eureka;
+
+--
+-- Name: TABLE subscripciones; Type: COMMENT; Schema: public; Owner: eureka
+--
+
+COMMENT ON TABLE subscripciones IS 'Personas subscritas de la página';
+
+
+--
+-- Name: COLUMN subscripciones.correo; Type: COMMENT; Schema: public; Owner: eureka
+--
+
+COMMENT ON COLUMN subscripciones.correo IS 'Correo del subscriptor';
+
+
+--
+-- Name: COLUMN subscripciones.nombre; Type: COMMENT; Schema: public; Owner: eureka
+--
+
+COMMENT ON COLUMN subscripciones.nombre IS 'Nombre del subscriptor';
+
+
+--
+-- Name: COLUMN subscripciones.apellido; Type: COMMENT; Schema: public; Owner: eureka
+--
+
+COMMENT ON COLUMN subscripciones.apellido IS 'Apellido del subscriptor';
+
+
+--
+-- Name: subscripciones_id_seq; Type: SEQUENCE; Schema: public; Owner: eureka
+--
+
+CREATE SEQUENCE subscripciones_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.subscripciones_id_seq OWNER TO eureka;
+
+--
+-- Name: subscripciones_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: eureka
+--
+
+ALTER SEQUENCE subscripciones_id_seq OWNED BY subscripciones.id;
+
+
+--
 -- Name: user; Type: TABLE; Schema: public; Owner: eureka; Tablespace: 
 --
 
@@ -92,6 +155,13 @@ ALTER SEQUENCE user_id_seq OWNED BY "user".id;
 -- Name: id; Type: DEFAULT; Schema: public; Owner: eureka
 --
 
+ALTER TABLE ONLY subscripciones ALTER COLUMN id SET DEFAULT nextval('subscripciones_id_seq'::regclass);
+
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: eureka
+--
+
 ALTER TABLE ONLY "user" ALTER COLUMN id SET DEFAULT nextval('user_id_seq'::regclass);
 
 
@@ -103,6 +173,21 @@ COPY migration (version, apply_time) FROM stdin;
 m000000_000000_base	1423540038
 m130524_201442_init	1423540042
 \.
+
+
+--
+-- Data for Name: subscripciones; Type: TABLE DATA; Schema: public; Owner: eureka
+--
+
+COPY subscripciones (id, correo, nombre, apellido) FROM stdin;
+\.
+
+
+--
+-- Name: subscripciones_id_seq; Type: SEQUENCE SET; Schema: public; Owner: eureka
+--
+
+SELECT pg_catalog.setval('subscripciones_id_seq', 1, false);
 
 
 --
@@ -126,6 +211,14 @@ SELECT pg_catalog.setval('user_id_seq', 1, false);
 
 ALTER TABLE ONLY migration
     ADD CONSTRAINT migration_pkey PRIMARY KEY (version);
+
+
+--
+-- Name: subscripciones_pkey; Type: CONSTRAINT; Schema: public; Owner: eureka; Tablespace: 
+--
+
+ALTER TABLE ONLY subscripciones
+    ADD CONSTRAINT subscripciones_pkey PRIMARY KEY (id);
 
 
 --
