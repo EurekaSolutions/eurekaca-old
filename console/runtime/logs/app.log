@@ -104,3 +104,251 @@ Additional Information:
     ]
     'argc' => 2
 ]
+2015-02-09 23:15:28 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'eureka'@'localhost' (using password: YES)' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'eureka', 'eureka', NULL)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(815): yii\db\Command->prepare(true)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\MigrateController.php(126): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(607): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\Apache24\htdocs\eurekaca\yii(31): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'eureka'@'localhost' (using password: YES)' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(815): yii\db\Command->prepare(true)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\MigrateController.php(126): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(607): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#15 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#16 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#17 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#18 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 C:\Apache24\htdocs\eurekaca\yii(31): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2015-02-09 23:15:25 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\MarcosJavier\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SOCRAM-LA'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\MarcosJavier'
+    'LOCALAPPDATA' => 'C:\\Users\\MarcosJavier\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\php\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'SOCRAM-LA'
+    'USERDOMAIN_ROAMINGPROFILE' => 'SOCRAM-LA'
+    'USERNAME' => 'MarcosJavier'
+    'USERPROFILE' => 'C:\\Users\\MarcosJavier'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Apache24\\htdocs\\eurekaca\\'
+    'PHP_SELF' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'SCRIPT_NAME' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'PATH_TRANSLATED' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1423539925.3996
+    'REQUEST_TIME' => 1423539925
+    'argv' => [
+        0 => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2015-02-09 23:16:59 [-][-][-][error][yii\base\NotSupportedException] exception 'yii\base\NotSupportedException' with message 'Connection does not support reading schema information for 'psql' DBMS.' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php:687
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php(130): yii\db\Connection->getSchema()
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\MigrateController.php(126): yii\base\Component->__get('schema')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(607): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#4 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\Apache24\htdocs\eurekaca\yii(31): yii\base\Application->run()
+#13 {main}
+2015-02-09 23:16:59 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\MarcosJavier\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SOCRAM-LA'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\MarcosJavier'
+    'LOCALAPPDATA' => 'C:\\Users\\MarcosJavier\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\php\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'SOCRAM-LA'
+    'USERDOMAIN_ROAMINGPROFILE' => 'SOCRAM-LA'
+    'USERNAME' => 'MarcosJavier'
+    'USERPROFILE' => 'C:\\Users\\MarcosJavier'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Apache24\\htdocs\\eurekaca\\'
+    'PHP_SELF' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'SCRIPT_NAME' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'PATH_TRANSLATED' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1423540019.1396
+    'REQUEST_TIME' => 1423540019
+    'argv' => [
+        0 => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2015-02-09 23:17:03 [-][-][-][error][yii\base\NotSupportedException] exception 'yii\base\NotSupportedException' with message 'Connection does not support reading schema information for 'psql' DBMS.' in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\db\Connection.php:687
+Stack trace:
+#0 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Component.php(130): yii\db\Connection->getSchema()
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\MigrateController.php(126): yii\base\Component->__get('schema')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(607): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#4 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#8 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#9 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#10 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#11 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\Apache24\htdocs\eurekaca\yii(31): yii\base\Application->run()
+#13 {main}
+2015-02-09 23:17:03 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\MarcosJavier\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'SOCRAM-LA'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\MarcosJavier'
+    'LOCALAPPDATA' => 'C:\\Users\\MarcosJavier\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\:C:\\php\\;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\MySQL\\MySQL Utilities 1.3.6\\;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\php\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\MARCOS~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'SOCRAM-LA'
+    'USERDOMAIN_ROAMINGPROFILE' => 'SOCRAM-LA'
+    'USERNAME' => 'MarcosJavier'
+    'USERPROFILE' => 'C:\\Users\\MarcosJavier'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\Apache24\\htdocs\\eurekaca\\'
+    'PHP_SELF' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'SCRIPT_NAME' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'PATH_TRANSLATED' => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1423540023.1666
+    'REQUEST_TIME' => 1423540023
+    'argv' => [
+        0 => 'C:\\Apache24\\htdocs\\eurekaca\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
