@@ -118,3 +118,2846 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1423525068.772
     'REQUEST_TIME' => 1423525068
 ]
+2015-02-15 12:44:19 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:44:18 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64025'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020458.793
+    'REQUEST_TIME' => 1424020458
+]
+2015-02-15 12:44:22 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:44:22 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64025'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020462.601
+    'REQUEST_TIME' => 1424020462
+]
+2015-02-15 12:48:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:48:40 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64089'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020720.971
+    'REQUEST_TIME' => 1424020720
+]
+2015-02-15 12:48:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:48:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d4f10a028'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64089'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d4f10a028'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d4f10a028'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020721.101
+    'REQUEST_TIME' => 1424020721
+]
+2015-02-15 12:49:23 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:49:23 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64098'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020763.276
+    'REQUEST_TIME' => 1424020763
+]
+2015-02-15 12:49:23 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:49:23 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d51b56ea0'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64098'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d51b56ea0'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d51b56ea0'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020763.416
+    'REQUEST_TIME' => 1424020763
+]
+2015-02-15 12:51:26 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:51:26 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64113'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020886.67
+    'REQUEST_TIME' => 1424020886
+]
+2015-02-15 12:51:26 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:51:26 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d596b4aa0'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64113'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d596b4aa0'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d596b4aa0'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020886.81
+    'REQUEST_TIME' => 1424020886
+]
+2015-02-15 12:51:45 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:51:45 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64122'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020905.614
+    'REQUEST_TIME' => 1424020905
+]
+2015-02-15 12:51:45 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:51:45 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d5a9a5c58'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d5a9a5c58'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d5a9a5c58'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020905.729
+    'REQUEST_TIME' => 1424020905
+]
+2015-02-15 12:51:58 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:51:58 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64128'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020918.325
+    'REQUEST_TIME' => 1424020918
+]
+2015-02-15 12:51:58 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:51:58 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d5b6606f8'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64129'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d5b6606f8'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d5b6606f8'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020918.425
+    'REQUEST_TIME' => 1424020918
+]
+2015-02-15 12:52:06 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:52:05 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020925.898
+    'REQUEST_TIME' => 1424020925
+]
+2015-02-15 12:52:06 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:52:06 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d5bdf3a70'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64139'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d5bdf3a70'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d5bdf3a70'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020926.038
+    'REQUEST_TIME' => 1424020926
+]
+2015-02-15 12:52:13 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:52:13 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64144'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020933.086
+    'REQUEST_TIME' => 1424020933
+]
+2015-02-15 12:52:13 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:52:13 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d5c528870'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64146'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d5c528870'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d5c528870'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424020933.216
+    'REQUEST_TIME' => 1424020933
+]
+2015-02-15 12:55:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:55:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021141.287
+    'REQUEST_TIME' => 1424021141
+]
+2015-02-15 12:55:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:55:41 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d6955747c'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64236'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d6955747c'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d6955747c'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021141.397
+    'REQUEST_TIME' => 1424021141
+]
+2015-02-15 12:56:33 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:56:33 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64253'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021193.003
+    'REQUEST_TIME' => 1424021193
+]
+2015-02-15 12:56:33 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:56:33 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d6c911f1c'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64255'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d6c911f1c'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d6c911f1c'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021193.131
+    'REQUEST_TIME' => 1424021193
+]
+2015-02-15 12:57:20 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:57:20 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64259'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021240.753
+    'REQUEST_TIME' => 1424021240
+]
+2015-02-15 12:57:20 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:57:20 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d6f8cb7dc'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d6f8cb7dc'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d6f8cb7dc'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021240.883
+    'REQUEST_TIME' => 1424021240
+]
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64299'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021288.338
+    'REQUEST_TIME' => 1424021288
+]
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d72863bb4'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64300'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d72863bb4'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d72863bb4'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021288.488
+    'REQUEST_TIME' => 1424021288
+]
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64299'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021288.702
+    'REQUEST_TIME' => 1424021288
+]
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:58:08 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d728ba284'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64303'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d728ba284'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d728ba284'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021288.812
+    'REQUEST_TIME' => 1424021288
+]
+2015-02-15 12:59:17 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:17 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64326'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021357.5
+    'REQUEST_TIME' => 1424021357
+]
+2015-02-15 12:59:17 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:17 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d76d8a4e4'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64330'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d76d8a4e4'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d76d8a4e4'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021357.634
+    'REQUEST_TIME' => 1424021357
+]
+2015-02-15 12:59:32 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:32 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64365'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021372.322
+    'REQUEST_TIME' => 1424021372
+]
+2015-02-15 12:59:32 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:32 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d77c60504'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64368'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d77c60504'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d77c60504'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021372.443
+    'REQUEST_TIME' => 1424021372
+]
+2015-02-15 12:59:38 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:38 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64371'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021378.166
+    'REQUEST_TIME' => 1424021378
+]
+2015-02-15 12:59:38 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:38 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d782374c4'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64373'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d782374c4'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d782374c4'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021378.276
+    'REQUEST_TIME' => 1424021378
+]
+2015-02-15 12:59:53 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:53 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64377'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021393.238
+    'REQUEST_TIME' => 1424021393
+]
+2015-02-15 12:59:53 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 12:59:53 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d7914b8fc'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64381'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d7914b8fc'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d7914b8fc'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021393.372
+    'REQUEST_TIME' => 1424021393
+]
+2015-02-15 13:01:01 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:01:01 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021461.432
+    'REQUEST_TIME' => 1424021461
+]
+2015-02-15 13:01:01 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:01:01 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d7d57c254'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64391'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d7d57c254'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d7d57c254'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021461.544
+    'REQUEST_TIME' => 1424021461
+]
+2015-02-15 13:01:14 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:01:14 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021474.374
+    'REQUEST_TIME' => 1424021474
+]
+2015-02-15 13:01:14 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:01:14 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '54e0d7e26a144'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'image/png,image/*;q=0.8,*/*;q=0.5'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=54e0d7e26a144'
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php?r=site%2Fcaptcha&v=54e0d7e26a144'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424021474.517
+    'REQUEST_TIME' => 1424021474
+]
+2015-02-15 13:27:04 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:27:03 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64949'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424023023.882
+    'REQUEST_TIME' => 1424023023
+]
+2015-02-15 13:27:40 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:27:39 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '64959'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424023059.93
+    'REQUEST_TIME' => 1424023059
+]
+2015-02-15 13:32:00 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 7144 bytes' 
+
+in C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\Apache24\\htd...', 86, Array)
+#1 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< .mine\r\n...')
+#2 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\Apache24\\htd...', Array)
+#3 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\Apache24\htdocs\eurekaca\vendor\yiisoft\yii2\log\Logger.php(170): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-02-15 13:32:00 [127.0.0.1][-][h6s73l9cu6burn6et885n7rmf0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1861192029.1415307511'
+    '_identity' => '1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds:46:\"[1,\"9l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg\",2592000]\";'
+    'language' => '30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s:2:\"en\";'
+    'mysheet' => 'style2'
+    'PHPSESSID' => 'h6s73l9cu6burn6et885n7rmf0'
+    '_csrf' => '857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s:32:\"53HySRHnkGgPq4A06dPDt-orRepYB6Cc\";'
+    '_gat' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'narjqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/eurekaca/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_COOKIE' => '_ga=GA1.1.1861192029.1415307511; _identity=1679b5de64472334db06341a12f61607464c6adb083d9332878e27339dce8efds%3A46%3A%22%5B1%2C%229l0Ipq8uMC498otM8_3Nj0pUMpuYT0Rg%22%2C2592000%5D%22%3B; language=30cdc35bafffd4821e6b0d8b9ed6cba4d89c6796s%3A2%3A%22en%22%3B; mysheet=style2; PHPSESSID=h6s73l9cu6burn6et885n7rmf0; _csrf=857470a54d26fe74ea7aab7fdeea65f4ef73e373cacbe6cdd99c2b7cc941b2f7s%3A32%3A%2253HySRHnkGgPq4A06dPDt-orRepYB6Cc%22%3B; _gat=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\php;C:\\Apache24;C:\\Apache24\\bin;C:\\Users\\Marcos\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Program Files\\PostgreSQL\\9.3\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Apache24/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/Apache24/htdocs/eurekaca/frontend/web/index.php'
+    'REMOTE_PORT' => '65080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/eurekaca/frontend/web/index.php'
+    'SCRIPT_NAME' => '/eurekaca/frontend/web/index.php'
+    'PHP_SELF' => '/eurekaca/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1424023320.283
+    'REQUEST_TIME' => 1424023320
+]
