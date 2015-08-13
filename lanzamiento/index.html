@@ -8,24 +8,30 @@
   <meta name="author" content="Eureka Solutions, C.A">
   <link rel="icon" type="image/vnd.microsoft.icon" href="image/favicon-16x16.png" />
   <title>Eureka Solutions</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="imagen/favicon-16x16.ico" type="image/x-icon" />
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
   <div class="navbar-fixed">
   <nav class="black" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo center"></a>
+      <a id="logo-container" href="#" class="brand-logo left"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="portafolio.html">Portafolio</a>
+        </li>
+      </ul>
     </div>
   </nav>
   </div>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br>
-      <h2 class="header center red-text">..seguimos evolucionando...</h2>
+      <h2 class="header center red-text">...seguimos evolucionando...</h2>
       <div class="row center">
           <div class="col s12 m12">
           <div class="icon-block">
@@ -165,9 +171,13 @@
                       <tr>
                         <td><img src="image/team-marcos.jpg" width="100" height="100" alt="" class="circle">
                         </td>
-                        <td>Cuenta corriebte<br>
-                          J404590749<br>
-                          01340066180661047240<br>
+                        <td>
+                            <i class=" material-icons">phone</i>
+                            +58 414-3453988
+                            <br/>
+                            <i class=" material-icons">email</i>
+                            mramirez@eureksolutions.com
+                            <br/>
                         </td>
                       </tr>
                     </tbody>
@@ -197,9 +207,13 @@
                       <tr>
                         <td><img src="image/team-edgar.jpg" width="100" height="100" alt="" class="circle">
                         </td>
-                        <td>Cuenta corriebte<br>
-                          J404590749<br>
-                          01340066180661047240<br>
+                        <td>
+                          <i class=" material-icons">phone</i>
+                          +58 414-3189549
+                          <br/>
+                            <i class=" material-icons">email</i>
+                            eleal@eureksolutions.com
+                          <br/>
                         </td>
                       </tr>
                     </tbody>
@@ -210,7 +224,7 @@
       </div>
     </div>
     <br>
-      <h5 class="center-align header col s12 blue-text">O envianos un correo</h5>
+      <h5 class="center-align header col s12 blue-text">O envianos un mensaje</h5>
       <div class="row">
       <form class="col s12" action="">
         <div class="row">
@@ -249,6 +263,16 @@
         </div>
       </form>
     </div>
+    <h5 class="center-align header col s12 blue-text">O envianos un correo a:</h5>
+    <br>
+    <div class="row" style="text-align:center">
+       <div class="col s4"><i class="medium material-icons">email</i><br/>
+        eureka@eureksolutions.com</div>
+       <div class="col s4"><i class="medium material-icons">email</i><br/>
+info@eureksolutions.com</div>
+       <div class="col s4"><i class="medium material-icons">email</i><br/>
+soporte@eureksolutions.com</div>
+    </div>
   </div>
 
   <footer class="page-footer red">
@@ -256,7 +280,22 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">NOSOTROS</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <p class="grey-text text-lighten-4">Eureka es mas que una startup, es más que un equipo, somos una familia. Nos dedicamos a la programación web y móvil, contamos con una ambición grande, la de desarrollar productos que beneficien a la mayor cantidad de personas, que les ayude en sus tareas básicas.</p>
+          <table>
+            <thead>
+              <tr>
+                  <th data-field="desarrollo">¿Deseas trabajar en Eureka?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Envía un correo con tu resumen y portafolio a:<br>
+                  <i class="tiny material-icons">email</i>
+                  rrhh@eureksolutions.com
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="col l6 s12">
           <h5 class="white-text">HORARIOS PARA</h5>
@@ -276,12 +315,28 @@
               </tr>
             </tbody>
           </table>
+
+          <form class="col s12" action="">
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="newsletter" type="email" class="validate">
+                <label for="newsletter" data-error="wrong" data-success="right">Newsletter</label>
+              </div>
+              <div class="right-align">
+                <button class="btn waves-effect waves-light" type="submit" name="action" >
+                  <i class="material-icons">send</i>
+                </button>
+              </div>
+            </div>
+          </form>
+
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
       <a class="red-text text-lighten-3" href="http://eureksolutions.com">Eureka Solutions, C.A - J404590749</a>
+      <a class="grey-text text-lighten-4 right" href="http://rncenlinea.snc.gob.ve/planilla/index/629018?anafinan=N&anafinanpub=Y&login=N&mostrar=INF" target="_blank">Inscritos ante el Registro Nacional de Contratistas</a>
       </div>
     </div>
   </footer>
